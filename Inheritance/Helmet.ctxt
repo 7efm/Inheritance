@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.target=Helmet
-comment0.text=\r\n\ Abstract\ class\ Helmet\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
-comment1.params=name\ value\ durability
-comment1.target=Helmet(java.lang.String,\ int,\ int)
-numComments=2
+comment1.params=name\ value\ durability\ chanceToParry
+comment1.target=Helmet(java.lang.String,\ int,\ int,\ int)
+comment2.params=
+comment2.target=boolean\ blocked()
+numComments=3

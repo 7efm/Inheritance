@@ -8,12 +8,13 @@
 public abstract class Armor extends Item implements DefenseCommands
 {
     protected int defenseValue;
-    public Armor(String name, int value, int durability){
+    protected int chanceToBlock;
+    public Armor(String name, int value, int durability, int chanceToBlock){
         super(name, value, durability);
         this.defenseValue = defenseValue;
+        this.chanceToBlock = chanceToBlock;
     }
     public void breaks(){
     
     }
-    
 }

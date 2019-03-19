@@ -20,4 +20,11 @@ public class Item implements ItemInterface{
         return name;
     }
 
+    public int getValue(){
+        return value;
+    }
+
+    public int getDurability(){
+        return durability;
+    }
 }
