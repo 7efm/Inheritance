@@ -16,4 +16,7 @@ public abstract class Character
     public void healthChange(int changeH){
         health += changeH;
     }
+    public int getStamina(){
+        return stamina;
+    }
 }

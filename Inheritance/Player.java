@@ -15,5 +15,8 @@ public class Player extends Character
         helmet = null;
         bodyArmor = null;
     }
+    public int getHealth(){
+        return health;
+    }
     
 }
