@@ -9,7 +9,7 @@ public abstract class Ranged extends Weapon
 {
     protected int range;
     public Ranged(String name, int value, int durability, int range){
-        super(name, value, durability);
+        super(name, value, durability, range);
     
     }
 }

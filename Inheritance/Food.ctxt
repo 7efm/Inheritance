@@ -1,7 +1,6 @@
 #BlueJ class context
 comment0.target=Food
 comment0.text=\r\n\ Abstract\ class\ Food\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
-comment1.params=y
-comment1.target=int\ sampleMethod(int)
-comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment1.params=name\ value\ durability\ rotten\ staminaRecharge
+comment1.target=Food(java.lang.String,\ int,\ int,\ boolean,\ int)
 numComments=2

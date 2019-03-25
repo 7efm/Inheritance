@@ -5,20 +5,16 @@
  * @author (your name here)
  * @version (version number or date here)
  */
-public abstract class Food
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+public abstract class Food extends Consumable
+{   
+    protected boolean rotten = false;
+    protected int staminaRecharge;
+    public Food(String name, int value, int durability, boolean rotten, int staminaRecharge){
+        super(name, value, durability); 
+        this.rotten = rotten;
+        this.staminaRecharge = staminaRecharge;
+    }
+    public int rechargeStamina(){
+        return raiseStamina(staminaRecharge);
     }
 }
