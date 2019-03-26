@@ -8,21 +8,22 @@
 public class Player extends Character
 {
     private Backpack pack = new Backpack();
-    protected Item helmet;
-    protected Item bodyArmor;
+    private Item helmet;
+    private Item bodyArmor;
     public Player(int health, int stamina, Item helmet, Item bodyArmor){
         super(health, stamina);
-        health = 500;
-        stamina = 100;
-        helmet = null;
-        bodyArmor = null;
+        this.helmet = helmet;
+        this.bodyArmor = bodyArmor;
     }
+
     public int getHealth(){
         return health;
     }
+
     public int getStamina(){
         return stamina;
     }
+
     public int raiseStamina(int change){
         stamina += change;
         return stamina;

@@ -7,9 +7,9 @@
  */
 import java.util.ArrayList;
 public class Item implements ItemInterface{
-    protected String name;
-    protected int value;
-    protected int durability;
+    public String name;
+    public int value;
+    public int durability;
     public Item(String name, int value, int durability){
         this.name = name;
         this.value = value;

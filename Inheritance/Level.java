@@ -11,7 +11,8 @@ public abstract class Level
 {
     private ArrayList<Item> roomItems = new ArrayList<Item>();
     private ArrayList<Item> enemies  = new ArrayList<Item>();
-    public Level(ArrayList <Item> roomItems, ArrayList<Item> enemies){
+    public  Player play = new Player(500, 100, null, null);
+    public Level(ArrayList <Item> roomItems, ArrayList<Item> enemies, Character player){
         this.roomItems = roomItems;
         this.enemies = enemies;
     }

@@ -14,7 +14,7 @@ public abstract class Food extends Consumable
         this.rotten = rotten;
         this.staminaRecharge = staminaRecharge;
     }
-    public int rechargeStamina(){
-        return raiseStamina(staminaRecharge);
+    public void eat(){
+        
     }
 }
