@@ -7,7 +7,6 @@
  */
 public abstract class Consumable extends Item
 {
-    
     public Consumable(String name, int value, int durability){
        super(name, value, durability);
     }

@@ -21,7 +21,5 @@ public class Beans extends Food
                 " You regain " + staminaRecharge + " stamina.");
         }
     }
-    public int rechargeStamina(Character target){
-        return target.raiseStamina(staminaRecharge);
-    }
+    
 }
