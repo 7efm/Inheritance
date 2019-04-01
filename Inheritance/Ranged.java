@@ -8,8 +8,8 @@
 public abstract class Ranged extends Weapon
 {
     protected int range;
-    public Ranged(String name, int value, int durability, int range){
-        super(name, value, durability, range);
-    
+    public Ranged(String name, int value, int durability, int range, int weaponDamage, int parryChance){
+        super(name, value, durability, weaponDamage, parryChance);
+        this.range = range;
     }
 }

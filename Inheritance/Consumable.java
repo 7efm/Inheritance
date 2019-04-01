@@ -8,10 +8,15 @@
 public abstract class Consumable extends Item
 {
     public Consumable(String name, int value, int durability){
-       super(name, value, durability);
+        super(name, value, durability);
     }
+
     public void consume(){
-        System.out.println("You consume the " + name +  ".");
-        durability --;
+        if(durability > 0){
+            System.out.println("You consume the " + name +  ".");
+            durability --;
+        }else{
+            System.out.println("You cannot consume your " + name + " because its durability has depleted.");
+        }
     }
 }

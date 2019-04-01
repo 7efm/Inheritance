@@ -7,7 +7,7 @@
  */
 public class BodyArmor extends Armor
 {
-    protected boolean worn;
+    private boolean worn;
     public BodyArmor(String name, int value, int durability, int chanceToParry){
         super(name, value, durability, chanceToParry);
     }
