@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Corn here.
+ * Write a description of class Musket here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Corn extends Food
+public class Musket
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Corn
+     * Constructor for objects of class Musket
      */
-    public Corn()
+    public Musket()
     {
         // initialise instance variables
         x = 0;

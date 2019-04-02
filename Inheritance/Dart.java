@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Corn here.
+ * Write a description of class Dart here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Corn extends Food
+public class Dart
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Corn
+     * Constructor for objects of class Dart
      */
-    public Corn()
+    public Dart()
     {
         // initialise instance variables
         x = 0;

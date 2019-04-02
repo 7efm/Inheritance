@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Corn here.
+ * Write a description of class Pespsi here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Corn extends Food
+public class Pepsi extends Heal
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Corn
+     * Constructor for objects of class Pespsi
      */
-    public Corn()
+    public Pespsi()
     {
         // initialise instance variables
         x = 0;

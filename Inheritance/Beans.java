@@ -11,7 +11,7 @@ public class Beans extends Food
         super(name, value, durability, rotten, staminaRecharge);
     }
 
-    public void eat(){
+    public void consume(){
         if(rotten){
             System.out.println("You open the can of beans and spend no time devouring it." + 
                 " It tastes funny, you lose 10 health but you regain " + staminaRecharge + " stamina.");

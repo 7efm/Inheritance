@@ -4,5 +4,5 @@ comment0.text=\r\n\ Abstract\ class\ Food\ -\ write\ a\ description\ of\ the\ cl
 comment1.params=name\ value\ durability\ rotten\ staminaRecharge
 comment1.target=Food(java.lang.String,\ int,\ int,\ boolean,\ int)
 comment2.params=
-comment2.target=void\ eat()
+comment2.target=void\ consume()
 numComments=3

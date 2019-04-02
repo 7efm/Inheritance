@@ -1,11 +1,11 @@
 
 /**
- * Write a description of class Peas here.
+ * Write a description of class Cactus here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Peas extends Food
+public class Cactus extends Food
 {
     
 }

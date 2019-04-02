@@ -2,7 +2,7 @@
 /**
  * Write a description of class Item here.
  * 
- * @author Wiebe 
+ * @author  
  * @version 1.2
  */
 import java.util.ArrayList;
