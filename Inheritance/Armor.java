@@ -15,6 +15,6 @@ public abstract class Armor extends Item implements DefenseCommands
         this.chanceToBlock = chanceToBlock;
     }
     public void breaks(){
-    
+        System.out.println("Your armor could not take any more damage and broke apart");
     }
 }

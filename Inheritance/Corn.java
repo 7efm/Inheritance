@@ -7,27 +7,16 @@
  */
 public class Corn extends Food
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Corn
-     */
-    public Corn()
-    {
-        // initialise instance variables
-        x = 0;
+    public Corn(String name, int value, int durability, boolean rotten, int staminaRecharge){
+        super(name, value, durability, rotten, staminaRecharge);
+        
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public void consume(){
+        if(rotten){
+            System.out.println("The corn is brown and moldy, yet you eat it anyway. You lose 10 health" + 
+            " but gain " + staminaRecharge + " stamina.");
+        }else{
+            
+        }
     }
 }

@@ -17,8 +17,10 @@ public class Helmet extends Armor
         int rand = (int)(Math.random()*100) + 1;
         if(rand <= chanceToBlock){
             System.out.println("Your " + name + " helmet blocked the attack!");
+            durability--;
             return true;
         }
+        durability--;
         return false;
     }
 }

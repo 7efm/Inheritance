@@ -7,14 +7,14 @@
  */
 public abstract class Food extends Consumable
 {   
-    protected boolean rotten = false;
-    protected int staminaRecharge;
+    public boolean rotten = false;
+    public int staminaRecharge;
     public Food(String name, int value, int durability, boolean rotten, int staminaRecharge){
         super(name, value, durability); 
         this.rotten = rotten;
         this.staminaRecharge = staminaRecharge;
     }
     public void consume(){
-        
+        System.out.println("You consume whatever is in your hand");
     }
 }
